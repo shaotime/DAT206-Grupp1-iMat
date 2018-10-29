@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<MenuBar prefHeight="29.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <menus>
+      <Menu mnemonicParsing="false" text="Arkiv">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Avsluta" />
+         </items>
+      </Menu>
+    <Menu mnemonicParsing="false" text="Kategorier">
+      <items>
+        <MenuItem mnemonicParsing="false" text="Mejeri" />
+            <MenuItem mnemonicParsing="false" text="Bröd" />
+            <MenuItem mnemonicParsing="false" text="Kött" />
+            <MenuItem mnemonicParsing="false" text="Skafferi" />
+            <MenuItem mnemonicParsing="false" text="Grönsaker" />
+            <MenuItem mnemonicParsing="false" text="Dryck" />
+            <MenuItem mnemonicParsing="false" text="Godis" />
+            <MenuItem mnemonicParsing="false" text="Frukt" />
+      </items>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Favoriter">
+      <items>
+        <MenuItem mnemonicParsing="false" text="Favoriter" />
+      </items>
+    </Menu>
+      <Menu mnemonicParsing="false" text="Tidigare köp">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Tidigare köp" />
+         </items>
+      </Menu>
+      <Menu mnemonicParsing="false" text="Inställningar">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Visa profil" />
+         </items>
+      </Menu>
+      <Menu mnemonicParsing="false" text="Hjälp">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Hjälp" />
+         </items>
+      </Menu>
+  </menus>
+</MenuBar>

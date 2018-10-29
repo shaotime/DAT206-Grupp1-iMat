@@ -1,0 +1,198 @@
+
+.pane-background {
+    -fx-background-color: white;
+}
+
+.categoriesPane {
+    -fx-background-color: transparent #d2d6d9 transparent transparent;
+    -fx-border-color: transparent transparent #d2d6d9 transparent;
+}
+
+#productsPane {
+    -fx-background-color: #fff;
+    -fx-border-color: #d2d6d9;
+    -fx-border-width: 1px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+#productsPane:hover {
+    -fx-border-color: #657370;
+    -fx-border-width: 3px;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.25) , 12,0,1,1 );
+}
+
+.shadowPane {
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.25) , 12,0,1,1 );
+}
+
+#profilePage {
+    -fx-background-color: #fff;
+}
+
+.profileTab {
+    -fx-padding: 10 10 10 10;
+    -fx-font-size: 18;
+}
+
+.hoverButton {
+    -fx-opacity: 0.5;
+}
+
+.hoverButton:hover {
+    -fx-opacity: 1.0;
+}
+
+
+.checkoutPane{
+    -fx-background-color: #d2d6d9;
+}
+
+.whiteBackground {
+    -fx-background-color: #fff;
+}
+
+.topSection {
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: #404040;
+}
+
+.redButtons {
+    -fx-background-color: linear-gradient(#c71717, #a40404);
+    -fx-background-radius: 5;
+    -fx-background-insets: 1;
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+    -fx-border-radius: 5;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 1,0,1,1 );
+}
+
+.redButtons:hover {
+    -fx-background-color: linear-gradient(#a51515, #940404);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.1) , 1,0,1,1 );
+}
+
+.pacmanButton {
+    -fx-background-color: linear-gradient(#c7c717, #a4a404);
+    -fx-background-radius: 5;
+    -fx-background-insets: 1;
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+    -fx-border-radius: 5;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 1,0,1,1 );
+}
+
+.pacmanButton:hover {
+    -fx-background-color: linear-gradient(#a5a515, #949404);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.1) , 1,0,1,1 );
+}
+
+.grayButtons {
+    -fx-background-color: linear-gradient(#505050, #202020);
+    -fx-background-radius: 5;
+    -fx-background-insets: 0;
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+    -fx-border-radius: 5;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 1,0,1,1 );
+}
+
+.helpButton {
+    -fx-background-color: linear-gradient(#505050, #202020);
+    -fx-background-radius: 20;
+    -fx-background-insets: 0;
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+    -fx-border-radius: 20;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 1,0,1,1 );
+}
+
+.helpButton:hover {
+    -fx-background-color: linear-gradient(#303030, #101010);
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.1) , 1,0,1,1 );
+}
+
+.grayButtons:hover {
+    -fx-background-color: linear-gradient(#303030, #101010);
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.1) , 1,0,1,1 );
+}
+
+#profileScene {
+    -fx-background-color: #fff;
+    -fx-background-radius: 25px;
+    -fx-border-width: 1px;
+    -fx-border-color: #404040;
+    -fx-border-radius: 20px;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.3) , 30,0,-10,10 );
+}
+
+#popupScene {
+    -fx-background-color: #fff;
+    -fx-background-radius: 25px;
+    -fx-border-width: 1px;
+    -fx-border-color: #404040;
+    -fx-border-radius: 20px;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.3) , 30,0,-10,10 );
+}
+
+#checkoutScene {
+    -fx-background-color: #fff;
+    -fx-background-radius: 25px;
+    -fx-border-width: 1px;
+    -fx-border-color: #404040;
+    -fx-border-radius: 20px;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.3) , 30,0,-10,10 );
+}
+
+.shoppingCartItem {
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: #d2d6d9;
+}
+
+.noBorder {
+    -fx-focus-color: transparent;
+}
+
+.checkoutTotal {
+    -fx-border-width: 1px 0 0 0;
+    -fx-border-color: #d2d6d9;
+}
+
+.activePane {
+    -fx-background-color: #F3F6F8;
+    -fx-effect: innershadow( gaussian , #000, 8, 0.0, 0, 0);
+    -fx-border-color: #404040;
+    -fx-text: #fff;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.inactivePane {
+    -fx-background-color: #fff;
+    -fx-effect: dropshadow( gaussian , #000, 3, 0.0, 2, 2);
+    -fx-border-color: #404040;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.inactivePane:hover{
+    -fx-background-color: #fff;
+    -fx-effect: innershadow( gaussian , #000, 8, 0.0, 0, 0);
+    -fx-border-color: #404040;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.welcomeMessagePane{
+      -fx-background-color: linear-gradient(#c71717, #a40404);
+     -fx-background-radius: 10px;
+     -fx-border-radius: 10px;
+     -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 1,0,1,1 );
+     -fx-effect: innershadow( gaussian , #fff, 8, 0.0, 0, 0);
+}

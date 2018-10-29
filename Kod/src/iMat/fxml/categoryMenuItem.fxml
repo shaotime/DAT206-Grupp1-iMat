@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxWidth="210.0" onMouseClicked="#categoryPressed" onMouseEntered="#mouseInChangeColour" onMouseExited="#mouseOutChangeColour" prefHeight="45.0" prefWidth="210.0" styleClass="categoriesPane" stylesheets="@stylesheet.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="categoryNameLabel" layoutX="12.0" layoutY="10.0" prefHeight="24.0" prefWidth="148.0" text="Kategori">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="categoryImage" fitHeight="38.0" fitWidth="38.0" layoutX="167.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+</fx:root>

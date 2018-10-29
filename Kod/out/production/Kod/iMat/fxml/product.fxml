@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root prefHeight="217.0" prefWidth="215.0" stylesheets="@stylesheet.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="8.0" layoutY="8.0" styleClass="shadowPane">
+         <children>
+            <javafx.scene.layout.AnchorPane id="productsPane" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="8.0">
+               <children>
+                  <ImageView fx:id="productImage" fitHeight="111.0" fitWidth="112.0" layoutX="14.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="productNameLabel" layoutX="13.0" layoutY="6.0" prefHeight="33.0" prefWidth="143.0" text="Produkt">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="137.0" layoutY="159.0" mnemonicParsing="false" onAction="#buy" prefHeight="27.0" prefWidth="49.0" styleClass="grayButtons" text="Köp">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <TextField fx:id="quantity" layoutX="48.0" layoutY="159.0" prefHeight="27.0" prefWidth="30.0" />
+            
+                  <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="15.0" layoutY="159.0" onMouseClicked="#increaseAmount" pickOnBounds="true" preserveRatio="true" styleClass="hoverButton">
+            
+                     <image>
+                        <Image url="@../img/763-arrow-up.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="12.0" fitWidth="21.0" layoutX="15.0" layoutY="177.0" onMouseClicked="#decreaseAmount" pickOnBounds="true" preserveRatio="true" styleClass="hoverButton">
+                     <image>
+                        <Image url="@../img/764-arrow-down-selected.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Label fx:id="price" alignment="CENTER_RIGHT" layoutX="126.0" layoutY="67.0" prefHeight="33.0" prefWidth="67.0" text="pris" textAlignment="RIGHT" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="favoriteIcon" fitHeight="29.0" fitWidth="29.0" layoutX="160.0" layoutY="9.0" onMouseClicked="#addToFavorites" pickOnBounds="true" preserveRatio="true">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <image>
+                        <Image url="@../img/heart_off.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="unit" layoutX="84.0" layoutY="164.0" text="Unit">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="type" alignment="CENTER_RIGHT" layoutX="143.0" layoutY="101.0" prefHeight="17.0" prefWidth="49.0" text="type" textAlignment="RIGHT" wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </javafx.scene.layout.AnchorPane>
+         </children>
+      </Pane>
+   </children>
+</fx:root>

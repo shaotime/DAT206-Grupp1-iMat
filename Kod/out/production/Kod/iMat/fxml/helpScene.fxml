@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root id="popupScene" maxWidth="800.0" prefHeight="500.0" prefWidth="800.0" styleClass="whiteBackground" stylesheets="@stylesheet.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#404040" layoutX="341.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Om iMat">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button layoutX="347.0" layoutY="419.0" mnemonicParsing="false" onAction="#close" prefHeight="27.0" prefWidth="100.0" styleClass="grayButtons" text="Stäng">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Text layoutX="134.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="iMat är en applikation framtagen med syftet att underlätta för äldre generationer att utnyttja den teknologi som erbjuds i dagens samhälle kombinerat med den vardagliga sysslan att handla mat. Programmet gjordes som ett projektarbete av fyra studenter på Chalmers Tekniska Högskola i en kurs i design och konstruktion av grafiska gränssnitt. Målet med projektet var att ta fram ett gränssnitt anpassat för pensionärer och att lära sig använda olika designmönster utifrån behov och målgrupp.&#10;&#10;Tanken har varit att göra programmet så lättförståeligt och användarvänligt som möjligt men inte på bekostnad av god funktionalitet. Om du som användare har några frågor eller förbättringsförslag så är du välkommen att maila oss på jonran@student.chalmers.se&#10;" wrappingWidth="525.21875">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Line endX="200.0" layoutX="60.0" layoutY="250.0" rotate="-90.0" startX="-100.0" stroke="#c71717" style="-fx-fill: #c71717;" />
+   </children>
+</fx:root>

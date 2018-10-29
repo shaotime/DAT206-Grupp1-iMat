@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Pane layoutX="200.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0">
+      <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="100.0" layoutX="0.0" layoutY="37.0" rotate="45.0" stroke="WHITE" strokeType="INSIDE" width="100.0">
+          <fill>
+            <Color blue="0.750" green="0.750" red="0.750" fx:id="x1" />
+          </fill>
+        </Rectangle>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="199.99990000000253" layoutX="14.0" layoutY="-14.0" stroke="WHITE" strokeType="INSIDE" width="199.99990000000253" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

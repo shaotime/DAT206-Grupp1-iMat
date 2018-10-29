@@ -1,0 +1,36 @@
+
+Brand identity
+
+Färger
+Warm vs Cool
+
+
+Text
+Sans-Serif
+All-caps i rubriker
+
+
+
+Designmönster:
+
+Input hints - För alla textinmatningar
+List inlay - Gamla / Sparade varukorgar i vänstermenyn
+Center stage - Kategorierna / Produkterna
+Spin box - För att ändra antal (352)
+Fill in the blanks - Eventuellt när man lägger till produkter
+Password strength meter - När man byter lösenord
+
+Hub & Spoke - navigering (eller fully connected?)
+
+
+
+Kassan:
+Left / Right alignment i formulären
+Modal panel - Ändra användaruppgifter, kassan
+Titled sections - När man ändrar användaruppgifter, en section för användarnamn, lösenord och en för adressuppgifter
+Structured format - För inmatning av kreditkortsuppgifter
+
+
+
+Hairlines pattern?
+Cultural references

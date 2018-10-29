@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root onMouseClicked="#setActive" prefHeight="80.0" prefWidth="110.0" type="Pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <javafx.scene.layout.Pane fx:id="button" layoutX="7.0" layoutY="5.0" prefHeight="69.0" prefWidth="94.0" styleClass="inactivePane" stylesheets="@stylesheet.css">
+         <children>
+            <Label fx:id="textWeekday" alignment="CENTER" layoutY="11.0" prefHeight="2.0" prefWidth="94.0" text="Imorgon" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="textTime" alignment="CENTER" layoutY="23.0" prefHeight="23.0" prefWidth="94.0" text="Imorgon" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="textDate" alignment="CENTER" layoutY="24.0" prefHeight="37.0" prefWidth="94.0" text="Imorgon" textAlignment="CENTER" wrapText="true" />
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </javafx.scene.layout.Pane>
+   </children>
+</fx:root>

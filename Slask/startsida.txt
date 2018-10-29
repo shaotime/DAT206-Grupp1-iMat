@@ -1,0 +1,9 @@
+iMat är den trygga matvaruaffären där du kan handla hemifrån.
+
+Om det här är första gången du använder iMat så kan du skapa ett användarkonto genom att klicka på knappen uppe i högra hörnet. Alternativt så kan du börja lägga varor i din kundvagn direkt och skapa ett användarkonto i samband med betalning.
+
+För att börja handla så klickar du på önskad kategori i menyn till vänster för att sedan lägga till önskat antal av vald vara. De varor du lagt till syns i kundvagnen till höger i bild.
+
+När du har lagt till de varor du vill köpa så kan du gå till kassan genom att klicka på "Gå till kassan" i nedre högra hörnet.
+
+För att se denna dialog igen kan du klicka på "Välkommen" som finns i "Hjälp"-menyn högst i rutan. 
